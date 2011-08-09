@@ -3,3 +3,4 @@ pkg
 *.pkg.tar.*
 *~
 *.bz2
+screen-4.0.3-long-term.patch

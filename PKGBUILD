@@ -11,7 +11,7 @@ url=http://www.gnu.org/software/screen/
 license=GPL
 backup=(etc/screenrc etc/pam.d/screen)
 #install=screen.install
-source=http://projects.archlinux.org/svntogit/packages.git/tree/screen/trunk/screen-4.0.3-long-term.patch
+source=http://projects.archlinux.org/svntogit/packages.git/plain/screen/trunk/screen-4.0.3-long-term.patch
 md5sums=2723c3e71d5a2e5a74b6ddbc5215ef0f
 _gitroot=git://git.savannah.gnu.org/screen.git
 _gitname=screen
@@ -39,5 +39,6 @@ build() {
 package() {
 	 cd $srcdir/$_gitname/src
 	 make DESTDIR=$pkgdir install
+	 mkdir -p $pkgdir/etc/pam.d
 	 echo 'auth		required	pam_unix.so' > $pkgdir/etc/pam.d/screen
 }
