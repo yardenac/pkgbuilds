@@ -1,5 +1,5 @@
 pkgname=screen-best
-pkgver=20110808
+pkgver=20110830
 pkgrel=1
 pkgdesc="GNU Screen package with everything"
 arch=(i686 x86_64)
@@ -34,7 +34,7 @@ build() {
 		  --with-sys-screenrc=/etc/screenrc \
 		  --mandir=/usr/share/man \
 		  --infodir=/usr/share/info
-	 make
+	 ionice -c 3 nice -n 19 make
 }
 package() {
 	 cd $srcdir/$_gitname/src
