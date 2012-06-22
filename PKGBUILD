@@ -1,5 +1,5 @@
 pkgname=screen-best
-pkgver=20110830
+pkgver=20120622
 pkgrel=1
 pkgdesc="GNU Screen package with everything"
 arch=(i686 x86_64)
@@ -41,4 +41,5 @@ package() {
 	 make DESTDIR=$pkgdir install
 	 mkdir -p $pkgdir/etc/pam.d
 	 echo 'auth		required	pam_unix.so' > $pkgdir/etc/pam.d/screen
+	 chmod u-s $pkgdir/usr/bin/screen-4.1.0
 }
