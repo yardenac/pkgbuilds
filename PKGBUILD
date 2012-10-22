@@ -1,7 +1,7 @@
 pkgname=s3fs-c-git
 pkgver=20121021
-pkgrel=1
-pkgdesc="fork of s3fs with better directory support"
+pkgrel=2
+pkgdesc="Fork of s3fs compatible with other clients"
 arch=('i686' 'x86_64')
 url="https://github.com/tongwang/s3fs-c"
 license=('GPL2')
