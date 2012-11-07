@@ -1,6 +1,5 @@
 pkgname=django-storages-hg
-pkgver=20121101
-__hgrev=1574890d87be
+pkgver=241
 pkgrel=1
 pkgdesc="Collection of custom storage backends for Django"
 arch=('any')
@@ -14,7 +13,8 @@ _hgrepo="django-storages"
 _hgbranch="default"
 
 build() {
-	 hg clone -b ${_hgbranch} -u ${_hgrev} "${_hgroot}/${_hgrepo}" ${_hgrepo}
+	 hg --cwd ${_hgrepo} update -C || \
+		  hg clone -b ${_hgbranch} "${_hgroot}/${_hgrepo}" ${_hgrepo}
 	 cd ${_hgrepo}
 	 if (( $(hg id -n) < $(hg id -nr ${_hgbranch}) )); then
 		  printf 'You are not building the latest revision!\n'
