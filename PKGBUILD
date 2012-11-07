@@ -1,11 +1,11 @@
 pkgname=django-storages-hg
 pkgver=241
-pkgrel=1
+pkgrel=3
 pkgdesc="Collection of custom storage backends for Django"
 arch=('any')
 url="http://code.larlet.fr/django-storages/"
 license=('BSD3')
-depends=('django')
+depends=('django' 'python2-boto')
 makedepends=('mercurial')
 
 _hgroot="https://bitbucket.org/david/django-storages"
