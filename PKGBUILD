@@ -1,5 +1,5 @@
 pkgname=screen-best
-pkgver=20120622
+pkgver=20121202
 pkgrel=1
 pkgdesc="GNU Screen package with everything"
 arch=(i686 x86_64)
@@ -33,6 +33,7 @@ build() {
 		  --with-pty-group=5 \
 		  --with-sys-screenrc=/etc/screenrc \
 		  --mandir=/usr/share/man \
+		  --with-socket-dir=/run/screens \
 		  --infodir=/usr/share/info
 	 ionice -c 3 nice -n 19 make
 }
