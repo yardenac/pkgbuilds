@@ -5,7 +5,7 @@ pkgdesc="Collection of custom storage backends for Django"
 arch=('any')
 url="http://code.larlet.fr/django-storages/"
 license=('BSD3')
-depends=('django' 'python2-boto')
+depends=('python2-django' 'python2-boto')
 makedepends=('mercurial')
 
 _hgroot="https://bitbucket.org/david/django-storages"
