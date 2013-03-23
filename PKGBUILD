@@ -1,6 +1,6 @@
 pkgname=django-storages-hg
-pkgver=241
-pkgrel=3
+pkgver=280
+pkgrel=1
 pkgdesc="Collection of custom storage backends for Django"
 arch=('any')
 url="http://code.larlet.fr/django-storages/"
