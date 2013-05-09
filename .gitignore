@@ -1,4 +1,7 @@
-*.src.tar.gz
-*.pkg.tar.gz
+*.src.tar.*
+*.pkg.tar.*
+*~
+*.bz2
+*.part
 */src/
 */pkg/
