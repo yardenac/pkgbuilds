@@ -1,0 +1,12 @@
+pkgname=fakepkg
+pkgver=0.$(date +%s)
+pkgrel=1
+pkgdesc="Fake easily updated package for testing repo scripts"
+#arch=(i686 x86_64)
+arch=(any)
+license=('GPL')
+
+package() {
+	 mkdir -p ${pkgdir}/usr/share/fakepkg
+	 echo contents >| ${pkgdir}/usr/share/fakepkg/file
+}
