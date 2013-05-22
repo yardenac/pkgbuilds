@@ -3,5 +3,5 @@
 *~
 *.bz2
 *.part
-*/src/
-*/pkg/
+*/*/src/
+*/*/pkg/
