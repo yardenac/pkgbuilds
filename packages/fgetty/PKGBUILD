@@ -4,7 +4,7 @@
 
 pkgname=fgetty
 pkgver=0.7
-pkgrel=3
+pkgrel=3.1
 pkgdesc="A mingetty stripped of the printfs"
 arch=('i686' 'x86_64')
 url='http://www.fefe.de/fgetty/'
@@ -19,7 +19,11 @@ build() {
   export PATH=$PATH:/opt/diet/bin
   cd ${srcdir}/${pkgname}-${pkgver}
   make
-  make DESTDIR=${pkgdir} install
-  mkdir -p $pkgdir/usr/share/
-  mv $pkgdir/usr/man $pkgdir/usr/share/
+}
+package() {
+	 export PATH=$PATH:/opt/diet/bin
+	 cd ${srcdir}/${pkgname}-${pkgver}
+	 make DESTDIR=${pkgdir} install
+	 mkdir -p $pkgdir/usr/share/
+	 mv $pkgdir/usr/man $pkgdir/usr/share/
 }
