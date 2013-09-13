@@ -6,3 +6,4 @@
 *.part
 */*/src/
 */*/pkg/
+*.crx
