@@ -18,6 +18,7 @@ backup=(etc/httpd/conf/httpd.conf
         etc/httpd/conf/extra/httpd-{ssl,userdir,vhosts}.conf
         etc/logrotate.d/httpd)
 depends=('openssl' 'zlib' 'apr-util' 'pcre' 'systemd')
+makedepends=('apr>=1.5')
 optdepends=('lynx: apachectl status')
 provides=('apache')
 conflicts=('apache')
