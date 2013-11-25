@@ -23,8 +23,8 @@ provides=('apache')
 conflicts=('apache')
 install=apache.install
 _itkversion=2.4.6-01
-source=(http://www.apache.org/dist/httpd/httpd-${pkgver}.tar.bz2
-        http://www.apache.org/dist/httpd/httpd-${pkgver}.tar.bz2.asc
+source=(https://www.apache.org/dist/httpd/httpd-${pkgver}.tar.bz2
+        https://www.apache.org/dist/httpd/httpd-${pkgver}.tar.bz2.asc
         apache.tmpfiles.conf
         httpd.logrotate
         httpd.service
