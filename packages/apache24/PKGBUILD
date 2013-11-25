@@ -5,8 +5,8 @@
 # Contributor: Pierre Schmitz <pierre@archlinux.de>
 
 pkgname=apache24
-pkgver=2.4.6
-pkgrel=2
+pkgver=2.4.7
+pkgrel=1
 pkgdesc='A high performance Unix-based HTTP server'
 arch=('i686' 'x86_64')
 options=('!libtool')
@@ -29,7 +29,7 @@ source=(http://www.apache.org/dist/httpd/httpd-${pkgver}.tar.bz2
         httpd.logrotate
         httpd.service
         arch.layout)
-md5sums=('ea5e361ca37b8d7853404419dd502efe'
+md5sums=('170d7fb6fe5f28b87d1878020a9ab94e'
          'SKIP'
          '26a5d2b1d9e89b339b8608c5002f8c00'
          '13dbaaf949c5bc36cfcf5718b95cb020'
