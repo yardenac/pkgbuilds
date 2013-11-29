@@ -23,7 +23,7 @@ optdepends=('lynx: apachectl status')
 provides=('apache')
 conflicts=('apache')
 install=apache.install
-_itkversion=2.4.6-01
+_itkversion=2.4.7-01
 source=(https://www.apache.org/dist/httpd/httpd-${pkgver}.tar.bz2
         https://www.apache.org/dist/httpd/httpd-${pkgver}.tar.bz2.asc
         apache.tmpfiles.conf
