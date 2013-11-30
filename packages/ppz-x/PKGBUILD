@@ -1,0 +1,11 @@
+pkgname=ppz-x
+pkgver=0.$(date +%s)
+pkgrel=1
+pkgdesc="Proterozoic metapackage for X Windows"
+arch=(any)
+license=('GPL')
+depends=(mpv)
+
+# client: sshfs
+# devel: burp parallel zip devtools
+# rescue: ddrescue lsof
