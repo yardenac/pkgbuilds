@@ -4,7 +4,8 @@
 *~
 *.bz2
 *.part
-*/*/src/
-*/*/pkg/
+packages/*/src/
+packages/*/pkg/
+packages/*/*.log
 *.crx
 *.asc
