@@ -6,6 +6,6 @@ arch=(any)
 license=('GPL')
 depends=(mpv)
 
-# client: sshfs
-# devel: burp parallel zip devtools
+# client: sshfs https-everywhere-chrome-git
+# devel: burp parallel zip devtools gnupg
 # rescue: ddrescue lsof
