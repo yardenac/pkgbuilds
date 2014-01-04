@@ -7,5 +7,15 @@
 packages/*/src/
 packages/*/pkg/
 packages/*/*.log
+packages/*/*/branches/
+packages/*/*/config
+packages/*/*/description
+packages/*/*/FETCH_HEAD
+packages/*/*/HEAD
+packages/*/*/hooks/
+packages/*/*/info/
+packages/*/*/objects/
+packages/*/*/packed-refs
+packages/*/*/refs/
 *.crx
 *.asc
