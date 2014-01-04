@@ -1,6 +1,6 @@
 gitname=s3fs-c
 pkgname=${gitname}-git
-pkgver=20130415
+pkgver=57.9c6d31b
 pkgrel=1
 pkgdesc="Fork of s3fs"
 arch=('i686' 'x86_64')
@@ -12,6 +12,12 @@ conflicts=('s3fs')
 provides=('s3fs')
 source=("git+${url}.git")
 md5sums=('SKIP')
+
+pkgver() {
+	 cd "${srcdir}/${gitname}"
+	 local ver="$(git rev-list --count HEAD).$(git rev-parse --short HEAD)"
+	 printf "%s" "${ver//-/.}"
+}
 
 build() {
 	 cd "${srcdir}/${gitname}"
