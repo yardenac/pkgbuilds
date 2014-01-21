@@ -17,5 +17,6 @@ packages/*/*/info/
 packages/*/*/objects/
 packages/*/*/packed-refs
 packages/*/*/refs/
+packages/*/*.patch
 *.crx
 *.asc
