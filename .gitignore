@@ -18,5 +18,6 @@ packages/*/*/objects/
 packages/*/*/packed-refs
 packages/*/*/refs/
 packages/*/*.patch
+packages/*/*/.hg/
 *.crx
 *.asc
