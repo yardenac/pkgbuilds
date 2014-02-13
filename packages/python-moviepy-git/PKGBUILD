@@ -9,7 +9,7 @@ license=("MIT")
 makedepends=('git' 'python-setuptools')
 depends=('ffmpeg' 'imagemagick' 'opencv'
 	 'python-decorator' 'python-numpy' 'python-pillow' 'python-pygame-hg'
-	 'python-scikit-image' 'python-scipy')
+	 'python-scikit-image' 'python-scipy' 'python-tqdm')
 source=("git+https://github.com/Zulko/${gitname}.git")
 md5sums=('SKIP')
 
