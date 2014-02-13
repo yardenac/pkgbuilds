@@ -1,0 +1,31 @@
+gitname=('quietnet')
+pkgname=("${gitname}-git")
+pkgver=40.20377c2
+pkgrel=1
+pkgdesc="Simple cchat program using inaudible sounds and a computer's microphone and speaker."
+arch=('any')
+url="https://github.com/Katee/${gitname}"
+license=('MIT')
+makedepends=('git')
+depends=('python-pyaudio' 'python-numpy')
+source=("git+https://github.com/Katee/${gitname}.git")
+md5sums=('SKIP')
+
+pkgver() {
+	 cd "${srcdir}/${gitname}"
+	 local ver="$(git rev-list --count HEAD).$(git rev-parse --short HEAD)"
+	 printf "%s" "${ver//-/.}"
+}
+
+package() {
+	 cd "${srcdir}/${gitname}"
+	 export QNDIR="${pkgdir}/usr/share/quietnet"
+	 install -d -m755 "$QNDIR"
+	 install -d -m755 "$QNDIR/notebooks"
+
+	 files=( $(ls -1 *.py notebooks/*) )
+	 echo "FILES:"
+	 for f in "${files[@]}"; do
+		  install -m744 "${srcdir}/${gitname}/${f}" "${QNDIR}/${f}"
+	 done
+}
