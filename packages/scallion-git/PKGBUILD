@@ -1,0 +1,30 @@
+# Maintainer: Yardena Cohen <yardenack at gmail dot com>
+
+gitname="scallion"
+pkgname="${gitname}-git"
+pkgver=v1.2.12.g6fa702a
+pkgrel=1
+arch=('any')
+pkgdesc="GPU-based Onion Hash generator"
+url="https://github.com/lachesis/scallion"
+license=("MIT")
+makedepends=('git' 'mono')
+depends=('libcl' 'mono' 'openssl')
+conflicts=("${gitname}")
+provides=("${gitname}")
+source=("git+${url}.git")
+md5sums=('SKIP')
+
+pkgver() {
+	 cd "${srcdir}/${gitname}"
+	 git describe --tags | sed 's|-|\.|g'
+}
+
+build() {
+	 cd "${srcdir}/${gitname}"
+	 xbuild scallion.sln
+}
+
+package() {
+	 cd "${srcdir}/${gitname}"
+}
