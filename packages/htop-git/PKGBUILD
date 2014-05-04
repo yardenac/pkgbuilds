@@ -24,11 +24,8 @@ pkgver() {
 
 prepare() {
 	 cd "${srcdir}/${gitname}"
-	 patch -Np1 -i "${srcdir}/0001-pass-processlist-flags-to-readOpenVZData-fixes-build.patch"
-}
 
-build() {
-	 cd "${srcdir}/${gitname}"
+	 patch -Np1 -i "${srcdir}/0001-pass-processlist-flags-to-readOpenVZData-fixes-build.patch"
 
 	 ./autogen.sh
 
@@ -42,7 +39,10 @@ build() {
         --enable-vserver \
         --enable-cgroup \
         --enable-oom
+}
 
+build() {
+	 cd "${srcdir}/${gitname}"
 	 make
 }
 
