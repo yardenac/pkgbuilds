@@ -1,0 +1,29 @@
+From b644f8d39d3388b7b02e1e22e815ed49a5da46ca Mon Sep 17 00:00:00 2001
+From: yar <yardenack@gmail.com>
+Date: Sun, 17 Aug 2014 21:03:21 -0700
+Subject: [PATCH 1/1] patch
+
+---
+ src/xftglyphs.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/src/xftglyphs.c b/src/xftglyphs.c
+index 10adb15..db48fca 100644
+--- a/src/xftglyphs.c
++++ b/src/xftglyphs.c
+@@ -21,10 +21,10 @@
+  */
+ 
+ #include "xftint.h"
+-#include <freetype/ftoutln.h>
++#include FT_OUTLINE_H
+ 
+ #if HAVE_FT_GLYPHSLOT_EMBOLDEN
+-#include <freetype/ftsynth.h>
++#include FT_SYNTHESIS_H
+ #endif
+ 
+ static const int    filters[3][3] = {
+-- 
+2.0.4
+
