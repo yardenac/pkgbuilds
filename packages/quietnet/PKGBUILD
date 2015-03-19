@@ -1,3 +1,5 @@
+# Maintainer: Yardena Cohen <yardenack at gmail dot com>
+
 gitname=('quietnet')
 pkgname=("${gitname}-git")
 pkgver=40.20377c2

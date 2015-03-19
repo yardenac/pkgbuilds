@@ -1,4 +1,6 @@
-# Maintainer: Somebody <somebody[at]foo[dot]tld>
+# Maintainer: Yardena Cohen <yardenack at gmail dot com>
+# Contributor: Somebody <somebody[at]foo[dot]tld>
+
 pkgname=skeinforge
 pkgver=50
 pkgrel=1

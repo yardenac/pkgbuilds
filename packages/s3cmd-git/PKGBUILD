@@ -1,3 +1,5 @@
+# Maintainer: Yardena Cohen <yardenack at gmail dot com>
+
 pkgbase=s3cmd
 pkgname=${pkgbase}-git
 pkgver=1060.86ebf01
