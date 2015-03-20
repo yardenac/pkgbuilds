@@ -12,12 +12,12 @@ url="http://replicat.org"
 depends=('java-runtime' 'python' 'tk')
 optdepends=('psyco: speed up toolpath generation')
 source=("http://replicatorg.googlecode.com/files/replicatorg-${pkgver}-linux.tgz"
-	'91-makerbot.rules'
-	'replicatorg')
+        '91-makerbot.rules'
+        'replicatorg')
 
-md5sums=('9e7171a32013edfd9bcf18330cdc20a1'
-	 'ff092d28462ae82d36ef8c288813f64e'
-	 '4993a15231df8dbcc16449d19479b284')
+sha512sums=('c2be8679ebcb722a01f46bbd5a3dd771ebda0eb5e5546627f9064b412be0e5ae0b63f9d44dc7f03d9b3fb862c45dbe09edfb15018a075f39ca57d725ca804205'
+            'ce77b5a4b6248dbd7be394a3130b8c70265d51eee1798409138c32f94413e36d7061c49985449183610377aa99316c0f9835d3708390fd58b6d70d47560c3c1e'
+            '2cf7ef87100f73b4c9fd31e3324f5db5eda3c1bed0282f723f3661d03c5d6029b12e0b8ae9c914b20f5adef16006015009265337098af5f818ecd2b7e44f13ca')
 
 build() {
 	cd ${srcdir}/replicatorg-${pkgver}/
