@@ -11,6 +11,7 @@ license=('GPLv3')
 depends=('python2' 'printrun-git')
 makedepends=('python2')
 source=("http://fabmetheus.crsndoo.com/files/50_reprap_python_beanshell.zip")
+sha512sums=('idk')
 
 #build() {
   #cd "${srcdir}/${pkgname}-${pkgver}"
@@ -26,6 +27,3 @@ package() {
   install -Dm644 __init__.py terminal.sh  test.stl ${pkgdir}/usr/lib/printrun/skeinforge
   #python2 skeinforge_application/skeinforge.py
 }
-
-# vim:set ts=2 sw=2 et:
-md5sums=('95e2a34660106d727411fdfaba404513')
