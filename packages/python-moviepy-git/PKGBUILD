@@ -13,7 +13,7 @@ depends=('ffmpeg' 'imagemagick' 'opencv'
 	 'python-decorator' 'python-numpy' 'python-pillow' 'python-pygame-hg'
 	 'python-scikit-image' 'python-scipy' 'python-tqdm')
 source=("git+https://github.com/Zulko/${gitname}.git")
-md5sums=('SKIP')
+sha512sums=('SKIP')
 
 pkgver() {
 	 cd "${srcdir}/${gitname}"

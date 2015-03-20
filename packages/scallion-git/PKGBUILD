@@ -13,7 +13,7 @@ depends=('libcl' 'mono' 'openssl')
 conflicts=("${gitname}")
 provides=("${gitname}")
 source=("git+${url}.git")
-md5sums=('SKIP')
+sha512sums=('SKIP')
 
 pkgver() {
 	 cd "${srcdir}/${gitname}"

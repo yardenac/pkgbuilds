@@ -11,7 +11,7 @@ license=('MIT')
 makedepends=('git')
 depends=('python-pyaudio' 'python-numpy')
 source=("git+https://github.com/Katee/${gitname}.git")
-md5sums=('SKIP')
+sha512sums=('SKIP')
 
 pkgver() {
 	 cd "${srcdir}/${gitname}"
