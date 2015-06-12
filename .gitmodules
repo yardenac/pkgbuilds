@@ -28,3 +28,6 @@
 [submodule "packages/htop-git"]
 	path = packages/htop-git
 	url = https://aur4.archlinux.org/htop-git.git
+[submodule "packages/https-everywhere-chrome"]
+	path = packages/https-everywhere-chrome
+	url = https://aur4.archlinux.org/https-everywhere-chrome.git
