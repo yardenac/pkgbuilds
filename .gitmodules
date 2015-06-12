@@ -37,3 +37,6 @@
 [submodule "packages/linode-api-python-git"]
 	path = packages/linode-api-python-git
 	url = https://aur4.archlinux.org/linode-api-python-git.git
+[submodule "packages/mat-git"]
+	path = packages/mat-git
+	url = https://aur4.archlinux.org/mat-git.git
