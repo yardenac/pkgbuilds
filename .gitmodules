@@ -1,3 +1,6 @@
 [submodule "packages/amavisd-new"]
 	path = packages/amavisd-new
 	url = https://aur4.archlinux.org/amavisd-new.git
+[submodule "packages/ascii-fluid-dynamics-git"]
+	path = packages/ascii-fluid-dynamics-git
+	url = https://aur4.archlinux.org/ascii-fluid-dynamics-git.git
