@@ -13,3 +13,6 @@
 [submodule "packages/haskell-codec-mbox"]
 	path = packages/haskell-codec-mbox
 	url = https://aur4.archlinux.org/haskell-codec-mbox.git
+[submodule "packages/haskell-fclabels"]
+	path = packages/haskell-fclabels
+	url = https://aur4.archlinux.org/haskell-fclabels.git
