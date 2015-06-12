@@ -7,3 +7,6 @@
 [submodule "packages/biosdisk-git"]
 	path = packages/biosdisk-git
 	url = https://aur4.archlinux.org/biosdisk-git.git
+[submodule "packages/django-storages-hg"]
+	path = packages/django-storages-hg
+	url = https://aur4.archlinux.org/django-storages-hg.git
