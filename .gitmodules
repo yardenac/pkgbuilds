@@ -34,3 +34,6 @@
 [submodule "packages/https-everywhere-chrome-git"]
 	path = packages/https-everywhere-chrome-git
 	url = https://aur4.archlinux.org/https-everywhere-chrome-git.git
+[submodule "packages/linode-api-python-git"]
+	path = packages/linode-api-python-git
+	url = https://aur4.archlinux.org/linode-api-python-git.git
