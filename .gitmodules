@@ -4,3 +4,6 @@
 [submodule "packages/ascii-fluid-dynamics-git"]
 	path = packages/ascii-fluid-dynamics-git
 	url = https://aur4.archlinux.org/ascii-fluid-dynamics-git.git
+[submodule "packages/biosdisk-git"]
+	path = packages/biosdisk-git
+	url = https://aur4.archlinux.org/biosdisk-git.git
