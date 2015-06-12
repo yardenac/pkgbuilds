@@ -19,3 +19,6 @@
 [submodule "packages/haskell-hsemail"]
 	path = packages/haskell-hsemail
 	url = https://aur4.archlinux.org/haskell-hsemail.git
+[submodule "packages/haskell-largeword"]
+	path = packages/haskell-largeword
+	url = https://aur4.archlinux.org/haskell-largeword.git
