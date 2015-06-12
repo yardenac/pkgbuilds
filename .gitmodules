@@ -16,3 +16,6 @@
 [submodule "packages/haskell-fclabels"]
 	path = packages/haskell-fclabels
 	url = https://aur4.archlinux.org/haskell-fclabels.git
+[submodule "packages/haskell-hsemail"]
+	path = packages/haskell-hsemail
+	url = https://aur4.archlinux.org/haskell-hsemail.git
