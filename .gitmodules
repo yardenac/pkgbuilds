@@ -31,3 +31,6 @@
 [submodule "packages/https-everywhere-chrome"]
 	path = packages/https-everywhere-chrome
 	url = https://aur4.archlinux.org/https-everywhere-chrome.git
+[submodule "packages/https-everywhere-chrome-git"]
+	path = packages/https-everywhere-chrome-git
+	url = https://aur4.archlinux.org/https-everywhere-chrome-git.git
