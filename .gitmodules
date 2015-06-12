@@ -10,3 +10,6 @@
 [submodule "packages/django-storages-hg"]
 	path = packages/django-storages-hg
 	url = https://aur4.archlinux.org/django-storages-hg.git
+[submodule "packages/haskell-codec-mbox"]
+	path = packages/haskell-codec-mbox
+	url = https://aur4.archlinux.org/haskell-codec-mbox.git
