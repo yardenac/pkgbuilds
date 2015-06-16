@@ -43,3 +43,6 @@
 [submodule "packages/mbox-tools"]
 	path = packages/mbox-tools
 	url = https://aur4.archlinux.org/mbox-tools.git
+[submodule "packages/perl-captcha-recaptcha-mailhide"]
+	path = packages/perl-captcha-recaptcha-mailhide
+	url = https://aur4.archlinux.org/perl-captcha-recaptcha-mailhide.git
