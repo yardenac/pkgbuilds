@@ -61,3 +61,6 @@
 [submodule "packages/php-ssh-git"]
 	path = packages/php-ssh-git
 	url = https://aur4.archlinux.org/php-ssh-git.git
+[submodule "packages/pycollada-git"]
+	path = packages/pycollada-git
+	url = https://aur4.archlinux.org/pycollada-git.git
