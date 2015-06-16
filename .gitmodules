@@ -55,3 +55,6 @@
 [submodule "packages/perl-extutils-typemap"]
 	path = packages/perl-extutils-typemap
 	url = https://aur4.archlinux.org/perl-extutils-typemap.git
+[submodule "packages/perl-xmlrpc-lite"]
+	path = packages/perl-xmlrpc-lite
+	url = https://aur4.archlinux.org/perl-xmlrpc-lite.git
