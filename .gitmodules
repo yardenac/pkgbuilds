@@ -46,3 +46,6 @@
 [submodule "packages/perl-captcha-recaptcha-mailhide"]
 	path = packages/perl-captcha-recaptcha-mailhide
 	url = https://aur4.archlinux.org/perl-captcha-recaptcha-mailhide.git
+[submodule "packages/perl-convert-uulib"]
+	path = packages/perl-convert-uulib
+	url = https://aur4.archlinux.org/perl-convert-uulib.git
