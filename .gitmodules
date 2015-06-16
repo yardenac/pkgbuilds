@@ -85,3 +85,6 @@
 [submodule "packages/soqt-hg"]
 	path = packages/soqt-hg
 	url = https://aur4.archlinux.org/soqt-hg.git
+[submodule "packages/tor-browser-en"]
+	path = packages/tor-browser-en
+	url = https://aur4.archlinux.org/tor-browser-en.git
