@@ -79,3 +79,6 @@
 [submodule "packages/python2-pywikibot-git"]
 	path = packages/python2-pywikibot-git
 	url = https://aur4.archlinux.org/python2-pywikibot-git.git
+[submodule "packages/s3fs-c-git"]
+	path = packages/s3fs-c-git
+	url = https://aur4.archlinux.org/s3fs-c-git.git
