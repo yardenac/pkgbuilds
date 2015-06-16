@@ -64,3 +64,6 @@
 [submodule "packages/pycollada-git"]
 	path = packages/pycollada-git
 	url = https://aur4.archlinux.org/pycollada-git.git
+[submodule "packages/python-pyshp"]
+	path = packages/python-pyshp
+	url = https://aur4.archlinux.org/python-pyshp.git
