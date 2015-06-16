@@ -58,3 +58,6 @@
 [submodule "packages/perl-xmlrpc-lite"]
 	path = packages/perl-xmlrpc-lite
 	url = https://aur4.archlinux.org/perl-xmlrpc-lite.git
+[submodule "packages/php-ssh-git"]
+	path = packages/php-ssh-git
+	url = https://aur4.archlinux.org/php-ssh-git.git
