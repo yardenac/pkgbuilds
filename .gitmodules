@@ -76,3 +76,6 @@
 [submodule "packages/python2-moviepy"]
 	path = packages/python2-moviepy
 	url = https://aur4.archlinux.org/python2-moviepy.git
+[submodule "packages/python2-pywikibot-git"]
+	path = packages/python2-pywikibot-git
+	url = https://aur4.archlinux.org/python2-pywikibot-git.git
