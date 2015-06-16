@@ -49,3 +49,6 @@
 [submodule "packages/perl-convert-uulib"]
 	path = packages/perl-convert-uulib
 	url = https://aur4.archlinux.org/perl-convert-uulib.git
+[submodule "packages/perl-css-inliner"]
+	path = packages/perl-css-inliner
+	url = https://aur4.archlinux.org/perl-css-inliner.git
