@@ -94,3 +94,6 @@
 [submodule "packages/newsblurbackgroundtab-git"]
 	path = packages/newsblurbackgroundtab-git
 	url = https://aur4.archlinux.org/newsblurbackgroundtab-git.git
+[submodule "packages/s3cmd-git"]
+	path = packages/s3cmd-git
+	url = https://aur4.archlinux.org/s3cmd-git.git
