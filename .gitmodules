@@ -88,9 +88,6 @@
 [submodule "packages/tor-browser-en"]
 	path = packages/tor-browser-en
 	url = https://aur4.archlinux.org/tor-browser-en.git
-[submodule "packages/eml2mbox"]
-	path = packages/eml2mbox
-	url = https://aur4.archlinux.org/eml2mbox.git
 [submodule "packages/newsblurbackgroundtab-git"]
 	path = packages/newsblurbackgroundtab-git
 	url = https://aur4.archlinux.org/newsblurbackgroundtab-git.git
