@@ -94,3 +94,6 @@
 [submodule "packages/s3cmd-git"]
 	path = packages/s3cmd-git
 	url = https://aur4.archlinux.org/s3cmd-git.git
+[submodule "packages/eml2mbox-git"]
+	path = packages/eml2mbox-git
+	url = aur:/eml2mbox-git.git
