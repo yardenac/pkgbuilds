@@ -97,3 +97,6 @@
 [submodule "packages/eml2mbox-git"]
 	path = packages/eml2mbox-git
 	url = aur:/eml2mbox-git.git
+[submodule "packages/python-simple-crypt"]
+	path = packages/python-simple-crypt
+	url = aur:/python-simple-crypt.git
