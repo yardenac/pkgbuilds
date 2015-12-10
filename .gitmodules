@@ -100,3 +100,6 @@
 [submodule "packages/python-simple-crypt"]
 	path = packages/python-simple-crypt
 	url = aur:/python-simple-crypt.git
+[submodule "packages/python-pickups-git"]
+	path = packages/python-pickups-git
+	url = aur:/python-pickups-git.git
