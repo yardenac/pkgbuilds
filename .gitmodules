@@ -109,3 +109,6 @@
 [submodule "packages/perl-crypt-random-source-factory"]
 	path = packages/perl-crypt-random-source-factory
 	url = aur:/perl-crypt-random-source-factory.git
+[submodule "packages/perl-math-random-secure"]
+	path = packages/perl-math-random-secure
+	url = aur:/perl-math-random-secure.git
