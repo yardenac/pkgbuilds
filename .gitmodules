@@ -58,9 +58,6 @@
 [submodule "packages/perl-xmlrpc-lite"]
 	path = packages/perl-xmlrpc-lite
 	url = aur:/perl-xmlrpc-lite.git
-[submodule "packages/php-ssh-git"]
-	path = packages/php-ssh-git
-	url = aur:/php-ssh-git.git
 [submodule "packages/pycollada-git"]
 	path = packages/pycollada-git
 	url = aur:/pycollada-git.git
