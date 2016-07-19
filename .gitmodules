@@ -109,3 +109,6 @@
 [submodule "packages/perl-math-random-secure"]
 	path = packages/perl-math-random-secure
 	url = aur:/perl-math-random-secure.git
+[submodule "packages/ttf-mgopen"]
+	path = packages/ttf-mgopen
+	url = aur:/ttf-mgopen.git
