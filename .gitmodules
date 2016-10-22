@@ -112,3 +112,6 @@
 [submodule "packages/ttf-mgopen"]
 	path = packages/ttf-mgopen
 	url = aur:/ttf-mgopen.git
+[submodule "packages/stylish-chrome-git"]
+	path = packages/stylish-chrome-git
+	url = aur:/stylish-chrome-git.git
