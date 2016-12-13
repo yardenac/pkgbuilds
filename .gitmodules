@@ -118,3 +118,6 @@
 [submodule "packages/perl-javascript-packer"]
 	path = packages/perl-javascript-packer
 	url = aur:/perl-javascript-packer.git
+[submodule "packages/perl-css-packer"]
+	path = packages/perl-css-packer
+	url = aur:/perl-css-packer.git
