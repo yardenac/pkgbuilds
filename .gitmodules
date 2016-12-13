@@ -121,3 +121,6 @@
 [submodule "packages/perl-css-packer"]
 	path = packages/perl-css-packer
 	url = aur:/perl-css-packer.git
+[submodule "packages/perl-html-packer"]
+	path = packages/perl-html-packer
+	url = aur:/perl-html-packer.git
