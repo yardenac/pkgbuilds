@@ -133,3 +133,6 @@
 [submodule "packages/perl-aws-signature4"]
 	path = packages/perl-aws-signature4
 	url = aur:/perl-aws-signature4.git
+[submodule "packages/perl-devel-callchecker"]
+	path = packages/perl-devel-callchecker
+	url = aur:/perl-devel-callchecker.git
