@@ -160,3 +160,6 @@
 [submodule "packages/perl-moops"]
 	path = packages/perl-moops
 	url = aur:/perl-moops.git
+[submodule "packages/perl-moosex-mungehas"]
+	path = packages/perl-moosex-mungehas
+	url = aur:/perl-moosex-mungehas.git
