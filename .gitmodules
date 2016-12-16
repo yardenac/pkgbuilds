@@ -172,3 +172,6 @@
 [submodule "packages/perl-perlx-assert"]
 	path = packages/perl-perlx-assert
 	url = aur:/perl-perlx-assert.git
+[submodule "packages/perl-return-type"]
+	path = packages/perl-return-type
+	url = aur:/perl-return-type.git
