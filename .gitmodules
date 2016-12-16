@@ -166,3 +166,6 @@
 [submodule "packages/perl-namespace-sweep"]
 	path = packages/perl-namespace-sweep
 	url = aur:/perl-namespace-sweep.git
+[submodule "packages/perl-parse-keyword"]
+	path = packages/perl-parse-keyword
+	url = aur:/perl-parse-keyword.git
