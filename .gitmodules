@@ -130,3 +130,6 @@
 [submodule "packages/perl-anyevent-cachedns"]
 	path = packages/perl-anyevent-cachedns
 	url = aur:/perl-anyevent-cachedns.git
+[submodule "packages/perl-aws-signature4"]
+	path = packages/perl-aws-signature4
+	url = aur:/perl-aws-signature4.git
