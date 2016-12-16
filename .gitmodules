@@ -151,3 +151,6 @@
 [submodule "packages/perl-keyword-simple"]
 	path = packages/perl-keyword-simple
 	url = aur:/perl-keyword-simple.git
+[submodule "packages/perl-lexical-accessor"]
+	path = packages/perl-lexical-accessor
+	url = aur:/perl-lexical-accessor.git
