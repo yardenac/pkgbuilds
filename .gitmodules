@@ -148,3 +148,6 @@
 [submodule "packages/perl-kavorka"]
 	path = packages/perl-kavorka
 	url = aur:/perl-kavorka.git
+[submodule "packages/perl-keyword-simple"]
+	path = packages/perl-keyword-simple
+	url = aur:/perl-keyword-simple.git
