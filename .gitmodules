@@ -169,3 +169,6 @@
 [submodule "packages/perl-parse-keyword"]
 	path = packages/perl-parse-keyword
 	url = aur:/perl-parse-keyword.git
+[submodule "packages/perl-perlx-assert"]
+	path = packages/perl-perlx-assert
+	url = aur:/perl-perlx-assert.git
