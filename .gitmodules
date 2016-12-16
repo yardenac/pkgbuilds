@@ -145,3 +145,6 @@
 [submodule "packages/perl-dynaloader-functions"]
 	path = packages/perl-dynaloader-functions
 	url = aur:/perl-dynaloader-functions.git
+[submodule "packages/perl-kavorka"]
+	path = packages/perl-kavorka
+	url = aur:/perl-kavorka.git
