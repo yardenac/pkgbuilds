@@ -178,3 +178,6 @@
 [submodule "packages/perl-string-approx"]
 	path = packages/perl-string-approx
 	url = aur:/perl-string-approx.git
+[submodule "packages/perl-sub-infix"]
+	path = packages/perl-sub-infix
+	url = aur:/perl-sub-infix.git
