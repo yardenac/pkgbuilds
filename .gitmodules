@@ -163,3 +163,6 @@
 [submodule "packages/perl-moosex-mungehas"]
 	path = packages/perl-moosex-mungehas
 	url = aur:/perl-moosex-mungehas.git
+[submodule "packages/perl-namespace-sweep"]
+	path = packages/perl-namespace-sweep
+	url = aur:/perl-namespace-sweep.git
