@@ -157,3 +157,6 @@
 [submodule "packages/perl-match-simple"]
 	path = packages/perl-match-simple
 	url = aur:/perl-match-simple.git
+[submodule "packages/perl-moops"]
+	path = packages/perl-moops
+	url = aur:/perl-moops.git
