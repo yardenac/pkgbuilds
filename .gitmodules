@@ -136,3 +136,6 @@
 [submodule "packages/perl-devel-callchecker"]
 	path = packages/perl-devel-callchecker
 	url = aur:/perl-devel-callchecker.git
+[submodule "packages/perl-devel-callparser"]
+	path = packages/perl-devel-callparser
+	url = aur:/perl-devel-callparser.git
