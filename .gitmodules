@@ -175,3 +175,6 @@
 [submodule "packages/perl-return-type"]
 	path = packages/perl-return-type
 	url = aur:/perl-return-type.git
+[submodule "packages/perl-string-approx"]
+	path = packages/perl-string-approx
+	url = aur:/perl-string-approx.git
