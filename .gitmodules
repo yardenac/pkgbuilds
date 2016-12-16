@@ -124,3 +124,6 @@
 [submodule "packages/perl-html-packer"]
 	path = packages/perl-html-packer
 	url = aur:/perl-html-packer.git
+[submodule "packages/perl-amazon-ses"]
+	path = packages/perl-amazon-ses
+	url = aur:/perl-amazon-ses.git
