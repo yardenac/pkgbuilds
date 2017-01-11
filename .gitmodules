@@ -103,9 +103,6 @@
 [submodule "packages/fbpanel-git"]
 	path = packages/fbpanel-git
 	url = aur:/fbpanel-git.git
-[submodule "packages/perl-crypt-random-source-factory"]
-	path = packages/perl-crypt-random-source-factory
-	url = aur:/perl-crypt-random-source-factory.git
 [submodule "packages/perl-math-random-secure"]
 	path = packages/perl-math-random-secure
 	url = aur:/perl-math-random-secure.git
@@ -190,3 +187,6 @@
 [submodule "packages/perl-vm-ec2"]
 	path = packages/perl-vm-ec2
 	url = aur:/perl-vm-ec2.git
+[submodule "packages/perl-crypt-random-source"]
+	path = packages/perl-crypt-random-source
+	url = aur:/perl-crypt-random-source.git
