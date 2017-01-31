@@ -190,3 +190,6 @@
 [submodule "packages/perl-crypt-random-source"]
 	path = packages/perl-crypt-random-source
 	url = aur:/perl-crypt-random-source.git
+[submodule "packages/alpine-git"]
+	path = packages/alpine-git
+	url = aur:/alpine-git.git
