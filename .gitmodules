@@ -193,3 +193,6 @@
 [submodule "packages/alpine-git"]
 	path = packages/alpine-git
 	url = aur:/alpine-git.git
+[submodule "packages/arch-https-mirrors-git"]
+	path = packages/arch-https-mirrors-git
+	url = aur:/arch-https-mirrors-git.git
