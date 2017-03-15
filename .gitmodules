@@ -196,3 +196,6 @@
 [submodule "packages/arch-https-mirrors-git"]
 	path = packages/arch-https-mirrors-git
 	url = aur:/arch-https-mirrors-git.git
+[submodule "packages/urxvt-tabbedex-mina86-git"]
+	path = packages/urxvt-tabbedex-mina86-git
+	url = aur:/urxvt-tabbedex-mina86-git.git
