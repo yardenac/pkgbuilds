@@ -199,3 +199,6 @@
 [submodule "packages/urxvt-tabbedex-mina86-git"]
 	path = packages/urxvt-tabbedex-mina86-git
 	url = aur:/urxvt-tabbedex-mina86-git.git
+[submodule "packages/chromium-ublock-origin-git"]
+	path = packages/chromium-ublock-origin-git
+	url = aur:chromium-ublock-origin-git.git
