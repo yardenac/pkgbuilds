@@ -208,3 +208,6 @@
 [submodule "packages/perl-regexp-reggrp"]
 	path = packages/perl-regexp-reggrp
 	url = aur:perl-regexp-reggrp.git
+[submodule "packages/perl-math-prime-xs"]
+	path = packages/perl-math-prime-xs
+	url = aur:perl-math-prime-xs.git
