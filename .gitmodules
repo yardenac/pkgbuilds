@@ -205,3 +205,6 @@
 [submodule "packages/ttf-code2000"]
 	path = packages/ttf-code2000
 	url = aur:ttf-code2000.git
+[submodule "packages/perl-regexp-reggrp"]
+	path = packages/perl-regexp-reggrp
+	url = aur:perl-regexp-reggrp.git
