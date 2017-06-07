@@ -1,6 +1,3 @@
-[submodule "packages/amavisd-new"]
-	path = packages/amavisd-new
-	url = aur:/amavisd-new.git
 [submodule "packages/ascii-fluid-dynamics-git"]
 	path = packages/ascii-fluid-dynamics-git
 	url = aur:/ascii-fluid-dynamics-git.git
