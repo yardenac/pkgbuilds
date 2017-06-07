@@ -43,9 +43,6 @@
 [submodule "packages/perl-captcha-recaptcha-mailhide"]
 	path = packages/perl-captcha-recaptcha-mailhide
 	url = aur:/perl-captcha-recaptcha-mailhide.git
-[submodule "packages/perl-convert-uulib"]
-	path = packages/perl-convert-uulib
-	url = aur:/perl-convert-uulib.git
 [submodule "packages/perl-css-inliner"]
 	path = packages/perl-css-inliner
 	url = aur:/perl-css-inliner.git
