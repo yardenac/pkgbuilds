@@ -58,9 +58,6 @@
 [submodule "packages/python-pyshp"]
 	path = packages/python-pyshp
 	url = aur:/python-pyshp.git
-[submodule "packages/python-tqdm"]
-	path = packages/python-tqdm
-	url = aur:/python-tqdm.git
 [submodule "packages/python2-moviepy-git"]
 	path = packages/python2-moviepy-git
 	url = aur:/python2-moviepy-git.git
