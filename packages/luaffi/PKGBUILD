@@ -1,0 +1,37 @@
+# Maintainer: Yardena Cohen <yardenack at gmail dot com>
+
+gitname=luaffi
+pkgname=lua52-ffi-git
+pkgver=0.147.abc638c
+pkgrel=1
+arch=(x86_64)
+url=https://github.com/jmckaskill/$gitname
+pkgdesc="Standalone FFI library for calling C functions from lua"
+license=(MIT)
+depends=(lua52)
+makedepends=(git lua52)
+source=("git+$url.git")
+md5sums=('SKIP')
+
+pkgver() {
+    cd "${srcdir}/${gitname}"
+    local ver="0.$(git rev-list --count HEAD).$(git rev-parse --short HEAD)"
+    printf "%s" "${ver//-/.}"
+}
+prepare() {
+    sed -i \
+        -e 's/lua5.2/lua52/' \
+        -e 's/LUA=lua/LUA=lua5.2/' \
+        -e 's/-Werror//' \
+        "${srcdir}/${gitname}/Makefile"
+}
+build() {
+    cd "${srcdir}/${gitname}"
+    make test_posix
+}
+package() {
+    cd "${srcdir}/${gitname}"
+    for o in call ctype ffi parser test; do
+        install -Dm644 $o.o "${pkgdir}/usr/lib/lua/5.2/socket/$o.o"
+    done
+}
