@@ -205,3 +205,6 @@
 [submodule "packages/perl-math-numseq"]
 	path = packages/perl-math-numseq
 	url = aur:perl-math-numseq.git
+[submodule "packages/torbrowser-launcher-git"]
+	path = packages/torbrowser-launcher-git
+	url = aur:torbrowser-launcher-git.git
