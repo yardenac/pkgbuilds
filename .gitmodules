@@ -208,3 +208,6 @@
 [submodule "packages/torbrowser-launcher-git"]
 	path = packages/torbrowser-launcher-git
 	url = aur:torbrowser-launcher-git.git
+[submodule "packages/perl-data-alias"]
+	path = packages/perl-data-alias
+	url = aur:perl-data-alias.git
