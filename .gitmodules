@@ -211,3 +211,6 @@
 [submodule "packages/perl-data-alias"]
 	path = packages/perl-data-alias
 	url = aur:perl-data-alias.git
+[submodule "packages/chromium-pdfjs-git"]
+	path = packages/chromium-pdfjs-git
+	url = aur:chromium-pdfjs-git.git
