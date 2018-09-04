@@ -214,3 +214,6 @@
 [submodule "packages/chromium-pdfjs-git"]
 	path = packages/chromium-pdfjs-git
 	url = aur:chromium-pdfjs-git.git
+[submodule "packages/perl-number-fraction"]
+	path = packages/perl-number-fraction
+	url = aur:perl-number-fraction.git
