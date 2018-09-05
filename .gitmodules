@@ -220,3 +220,9 @@
 [submodule "packages/math-bigint-lite"]
 	path = packages/math-bigint-lite
 	url = aur:perl-math-bigint-lite.git
+[submodule "packages/python-pocket-api"]
+	path = packages/python-pocket-api
+	url = aur:python-pocket-api.git
+[submodule "packages/python-pocket-cli"]
+	path = packages/python-pocket-cli
+	url = aur:python-pocket-cli.git
