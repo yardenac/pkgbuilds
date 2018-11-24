@@ -226,3 +226,6 @@
 [submodule "packages/python-pocket-cli"]
 	path = packages/python-pocket-cli
 	url = aur:python-pocket-cli.git
+[submodule "packages/ttf-code2001"]
+	path = packages/ttf-code2001
+	url = aur:ttf-code2001.git
