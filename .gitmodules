@@ -101,7 +101,7 @@
 	path = packages/ttf-mgopen
 	url = aur:/ttf-mgopen.git
 [submodule "packages/stylish-chrome-git"]
-	path = packages/stylus-chrome-git
+	path = packages/stylus-git
 	url = aur:/stylish-chrome-git.git
 [submodule "packages/perl-javascript-packer"]
 	path = packages/perl-javascript-packer
