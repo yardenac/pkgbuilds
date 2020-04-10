@@ -232,3 +232,6 @@
 [submodule "packages/ttf-code2002"]
 	path = packages/ttf-code2002
 	url = aur:ttf-code2002.git
+[submodule "packages/coin-hg"]
+	path = packages/coin-hg
+	url = aur:coin-hg.git
