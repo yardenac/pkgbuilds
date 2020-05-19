@@ -238,3 +238,6 @@
 [submodule "packages/python-guppy3-git"]
 	path = packages/python-guppy3-git
 	url = aur:python-guppy3-git.git
+[submodule "packages/b43-firmware"]
+	path = packages/b43-firmware
+	url = aur:b43-firmware.git
