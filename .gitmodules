@@ -244,3 +244,6 @@
 [submodule "packages/chromium-bypass-paywalls-git"]
 	path = packages/chromium-bypass-paywalls-git
 	url = aur:chromium-bypass-paywalls-git.git
+[submodule "packages/chromium-darkreader-git"]
+	path = packages/chromium-darkreader-git
+	url = aur:chromium-darkreader-git
