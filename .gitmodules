@@ -247,3 +247,6 @@
 [submodule "packages/chromium-darkreader-git"]
 	path = packages/chromium-darkreader-git
 	url = aur:chromium-darkreader-git
+[submodule "packages/chromium-unpaywall-git"]
+	path = packages/chromium-unpaywall-git
+	url = aur:chromium-unpaywall-git
