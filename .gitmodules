@@ -241,3 +241,6 @@
 [submodule "packages/b43-firmware"]
 	path = packages/b43-firmware
 	url = aur:b43-firmware.git
+[submodule "packages/chromium-bypass-paywalls-git"]
+	path = packages/chromium-bypass-paywalls-git
+	url = aur:chromium-bypass-paywalls-git.git
