@@ -250,3 +250,6 @@
 [submodule "packages/chromium-unpaywall-git"]
 	path = packages/chromium-unpaywall-git
 	url = aur:chromium-unpaywall-git
+[submodule "packages/gnash-git"]
+	path = packages/gnash-git
+	url = aur:gnash-git
