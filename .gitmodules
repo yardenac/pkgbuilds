@@ -71,7 +71,7 @@
 	path = packages/s3fs-c-git
 	url = aur:/s3fs-c-git.git
 [submodule "packages/soqt-hg"]
-	path = packages/soqt-hg
+	path = packages/soqt-git
 	url = aur:/soqt-hg.git
 [submodule "packages/tor-browser-en"]
 	path = packages/tor-browser-en
@@ -233,7 +233,7 @@
 	path = packages/ttf-code2002
 	url = aur:ttf-code2002.git
 [submodule "packages/coin-hg"]
-	path = packages/coin-hg
+	path = packages/coin-git
 	url = aur:coin-hg.git
 [submodule "packages/python-guppy3-git"]
 	path = packages/python-guppy3-git
@@ -253,3 +253,6 @@
 [submodule "packages/gnash-git"]
 	path = packages/gnash-git
 	url = aur:gnash-git
+[submodule "packages/perl-math-bigint-lite"]
+	path = packages/perl-math-bigint-lite
+	url = aur:perl-math-bigint-lite.git
