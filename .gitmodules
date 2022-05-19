@@ -256,3 +256,6 @@
 [submodule "packages/perl-math-bigint-lite"]
 	path = packages/perl-math-bigint-lite
 	url = aur:perl-math-bigint-lite.git
+[submodule "packages/perl-devel-declare"]
+	path = packages/perl-devel-declare
+	url = aur:perl-devel-declare.git
