@@ -259,3 +259,6 @@
 [submodule "packages/perl-devel-declare"]
 	path = packages/perl-devel-declare
 	url = aur:perl-devel-declare.git
+[submodule "packages/perl-universal-ref"]
+	path = packages/perl-universal-ref
+	url = aur:perl-universal-ref
