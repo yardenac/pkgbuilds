@@ -268,3 +268,6 @@
 [submodule "packages/python-httpx-git"]
 	path = packages/python-httpx-git
 	url = aur:python-httpx-git
+[submodule "packages/libpng-apng"]
+	path = packages/libpng-apng
+	url = aur:libpng-apng
