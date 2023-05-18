@@ -271,3 +271,6 @@
 [submodule "packages/libpng-apng"]
 	path = packages/libpng-apng
 	url = aur:libpng-apng
+[submodule "packages/mat2-git"]
+	path = packages/mat2-git
+	url = aur:mat2-git
