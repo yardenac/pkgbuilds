@@ -262,3 +262,9 @@
 [submodule "packages/perl-universal-ref"]
 	path = packages/perl-universal-ref
 	url = aur:perl-universal-ref
+[submodule "packages/yewtube-git"]
+	path = packages/yewtube-git
+	url = aur:mps-youtube-git
+[submodule "packages/python-httpx-git"]
+	path = packages/python-httpx-git
+	url = aur:python-httpx-git
